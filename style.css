@@ -26,6 +26,20 @@ color: #FFFFFF;
 
 }
 
+p {   
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height: 60px;
+/* or 120% */
+display: grid;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+
 button {
     /* a.sb-button */
 
@@ -51,9 +65,16 @@ color: #FFFFFF;
 
 }
 
-img {
+.imageContainer {
     width: 400px;
-    height: 400px;
+    height: auto;
+}
+
+.imageContainer img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
 }
 
 
