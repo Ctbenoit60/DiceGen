@@ -1,0 +1,56 @@
+* {
+    background-color: rgba(0, 98, 65, 1);
+    
+}
+
+header {
+    /* This is a dice */
+
+width: 262px;
+height: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+/* or 120% */
+display: grid;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+
+
+}
+
+
+button {
+    /* a.sb-button */
+
+box-sizing: border-box;
+
+/* border? */
+display: grid;
+padding: 8px 16.44px 7.19px 17px;
+
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+align-items: center;
+
+
+/* words*/
+display: grid;
+align-items: center;
+text-align: center;
+letter-spacing: -0.16px; 
+
+color: #FFFFFF;
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
