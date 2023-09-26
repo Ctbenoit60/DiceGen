@@ -1,0 +1,2 @@
+# DiceGen
+Dice generator exercise
