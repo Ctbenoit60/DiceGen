@@ -9,6 +9,7 @@ function d10() {
     console.log('button clicked')
     console.log('this is a d10')
     numberMinMax(1,10)
+    document.getElementById("roll10").innerHTML = numberMinMax(1,6)
 }
 
 function numberMinMax(min, max) {
