@@ -2,6 +2,7 @@ function d6() {
     console.log('button clicked')
     console.log('this is a d6')
     numberMinMax(1,6)
+    document.getElementById("roll6").innerHTML = numberMinMax(1,6)
 }
 
 function d10() {
