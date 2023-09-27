@@ -62,16 +62,12 @@ text-align: center;
 letter-spacing: -0.16px; 
 
 color: #FFFFFF;
+margin: 0 auto;
 
 }
 
-.imageContainer {
-    width: 400px;
-    height: auto;
-}
-
-.imageContainer img {
-    max-width: 100%; 
+img {
+    max-width: 400px; 
     height: auto; 
     display: block; 
     margin: 0 auto;
