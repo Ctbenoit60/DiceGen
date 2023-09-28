@@ -1,3 +1,8 @@
+function diceRoll(num, num2, Name1) {
+    console.log('this is how many sides:', num,num2);
+    document.getElementById(Name1).innerHTML = numberMinMax(num, num2);
+}
+
 function d6() {
     console.log('button clicked')
     console.log('this is a d6')
