@@ -5,16 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="dice_roller.js"></script>
 </head>
 <body>
-    <header>  This is a dice roller  </header>
+    <header>  <h1>This is a dice roller</h1>  </header>
     <nav> 
-        <p>Click to roll dice</p>
+        <p>Click to roll dice!!</p>
     </nav>
     <article>
-        <img src="images/perspective-dice-six-faces-six.svg" alt="D6 dice image">
-        <div> <button class="button"> Roll Dice</button> </div>
+        <div class="imageContainer"><img src="images/perspective-dice-six-faces-six.svg" alt="D6 dice image"></div>
+        <div> 
+            <button class="button" id="d6" onclick="diceRoll(1,6,'roll6')"> Roll D6 Dice</button> 
+            <p id="roll6"></p>
+        </div> 
+        
+        <div> 
+            <button class="button" id="d10" onclick="diceRoll(1,10,'roll10')"> Roll D10 Dice</button> 
+            <p id="roll10"></p>   
+        </div>
+
+        
     </article>
 
+    <footer>
+    <p>Copyright Info 2023</p>
+    <img src="images/DevInc.svg" alt="DevIncCopyright">  
+    </footer>
 </body>
 </html>

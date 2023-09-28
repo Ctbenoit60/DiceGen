@@ -6,10 +6,12 @@
 header {
     /* This is a dice */
 
-width: 262px;
-height: 300px;
+width: auto;
+height: auto;
+}
 
-font-family: 'Inter';
+h1 {
+    font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
 font-size: 50px;
@@ -22,14 +24,27 @@ letter-spacing: 2px;
 
 color: #FFFFFF;
 
-
 }
 
+p {   
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height: 60px;
+/* or 120% */
+display: grid;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
 
 button {
     /* a.sb-button */
 
 box-sizing: border-box;
+position: relative;
 
 /* border? */
 display: grid;
@@ -47,10 +62,15 @@ text-align: center;
 letter-spacing: -0.16px; 
 
 color: #FFFFFF;
+margin: 0 auto;
 
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    max-width: 400px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
 }
+
+
