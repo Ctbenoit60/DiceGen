@@ -8,3 +8,6 @@ Dice generator exercise
 ## User functionalities 
 - Need to randomize a roll of a D6
 - Need to randomize a roll of a D10
+
+## Story Board
+https://www.figma.com/file/lMy9SGOe7DhE69LJGsrEDo/Story-board-DiceGen?type=whiteboard&node-id=0%3A1&t=cP0WuUuMIa1p0hsG-1
